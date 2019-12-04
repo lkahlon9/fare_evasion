@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b00dee902a2a4099b1abd62e08a9df46 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    
+            <style> #vega_lite_402385ba503345fbaa46208be0d2ed2f {
+                position : relative;
+                width : 550.0px;
+                height: 250.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    <script src="https://cdn.jsdelivr.net/npm/vega@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@3"></script>
+    
+            <style> #vega_lite_84bdf9798d1b4438acd9c6999ae73c0c {
+                position : relative;
+                width : 550.0px;
+                height: 250.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_f96bad2119984dfdae9c4b9c7cdc08f9 {
+                position : relative;
+                width : 550.0px;
+                height: 250.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_3f55caf8551a4d8daaba3bbf5876769a {
+                position : relative;
+                width : 550.0px;
+                height: 250.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_7f96650a33294f98b9962b8de438df88 {
+                position : relative;
+                width : 550.0px;
+                height: 250.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_2046310fcb994750be6a247c43b7e800 {
+                position : relative;
+                width : 550.0px;
+                height: 250.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_951317a748144ab8a0539996f8ccb73f {
+                position : relative;
+                width : 550.0px;
+                height: 250.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_52a92e2e5c48463db067f89484ebabc3 {
+                position : relative;
+                width : 550.0px;
+                height: 250.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_dc8914cdad294a40aa5fbc519036a87c {
+                position : relative;
+                width : 550.0px;
+                height: 250.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_0ef9c421b987456bbb842d914e21e580 {
+                position : relative;
+                width : 550.0px;
+                height: 250.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_2f1a2b77a7f6477d8cfa98ddfaca73a5 {
+                position : relative;
+                width : 550.0px;
+                height: 250.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_0859ab3708e240e2945fe4a68d711d14 {
+                position : relative;
+                width : 550.0px;
+                height: 250.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_d27a7581c5f24fb09e38855ca406c585 {
+                position : relative;
+                width : 550.0px;
+                height: 250.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_cf2278cee3e64f4fa660f6b62e1836b7 {
+                position : relative;
+                width : 550.0px;
+                height: 250.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_a71a549e99a142188cb5375732f51efe {
+                position : relative;
+                width : 550.0px;
+                height: 250.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_707c2a04031e4e4cbb680a381dc46f3c {
+                position : relative;
+                width : 550.0px;
+                height: 250.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_7696a7b961134f2b8c61084a0354f718 {
+                position : relative;
+                width : 550.0px;
+                height: 250.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_ccb58acfe97b4f81be304f281fb778ef {
+                position : relative;
+                width : 550.0px;
+                height: 250.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_7a3e7acc76c045c79702b0e50d61c202 {
+                position : relative;
+                width : 550.0px;
+                height: 250.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_6bcf330b982b459d89906028f4e90cff {
+                position : relative;
+                width : 550.0px;
+                height: 250.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_69c2521489444279b05c0247d1cddb33 {
+                position : relative;
+                width : 550.0px;
+                height: 250.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_a95785e01c6e45acbccd53cecf8e6077 {
+                position : relative;
+                width : 550.0px;
+                height: 250.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_314486b48537464a826f11752ee7d58c {
+                position : relative;
+                width : 550.0px;
+                height: 250.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_050c580a38c34c7f9006ab4af54d3b48 {
+                position : relative;
+                width : 550.0px;
+                height: 250.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b00dee902a2a4099b1abd62e08a9df46" ></div>
+        
+</body>
+<script>    
+    
+            var map_b00dee902a2a4099b1abd62e08a9df46 = L.map(
+                "map_b00dee902a2a4099b1abd62e08a9df46",
+                {
+                    center: [40.738, -73.98],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3d36958376684426821967b99a79fe64 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+            var tile_layer_72dee360d4e3433c808f5f26e0f466bb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+            var tile_layer_8c2d6c4fa8c543fc93d5cb77094a4ca2 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+            var layer_control_2db7234794bf4b3b82f2512e81c617fe = {
+                base_layers : {
+                    "stamentoner" : tile_layer_3d36958376684426821967b99a79fe64,
+                    "openstreetmap" : tile_layer_72dee360d4e3433c808f5f26e0f466bb,
+                    "stamenterrain" : tile_layer_8c2d6c4fa8c543fc93d5cb77094a4ca2,
+                },
+                overlays :  {
+                },
+            };
+            L.control.layers(
+                layer_control_2db7234794bf4b3b82f2512e81c617fe.base_layers,
+                layer_control_2db7234794bf4b3b82f2512e81c617fe.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+            tile_layer_72dee360d4e3433c808f5f26e0f466bb.remove();
+            tile_layer_8c2d6c4fa8c543fc93d5cb77094a4ca2.remove();
+        
+    
+            var circle_marker_52cf5a1d9e5246a7a5e4fec57353e9e4 = L.circleMarker(
+                [40.804138, -73.93759399999999],
+                {"bubblingMouseEvents": true, "color": "#964b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#964b00", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+        var popup_29136efd16b240b8a440423626da0ad3 = L.popup({"maxWidth": 550});
+
+        
+            var vega_lite_402385ba503345fbaa46208be0d2ed2f = $(`             <div id="vega_lite_402385ba503345fbaa46208be0d2ed2f"></div>             `)[0];
+            popup_29136efd16b240b8a440423626da0ad3.setContent(vega_lite_402385ba503345fbaa46208be0d2ed2f);
+        
+
+        circle_marker_52cf5a1d9e5246a7a5e4fec57353e9e4.bindPopup(popup_29136efd16b240b8a440423626da0ad3)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_402385ba503345fbaa46208be0d2ed2f, {"$schema": "https://vega.github.io/schema/vega/v5.json", "width": 500, "height": 200, "padding": 5, "data": [{"name": "table", "values": [{"x": 0, "y": 28, "c": 0}, {"x": 0, "y": 55, "c": 1}, {"x": 1, "y": 43, "c": 0}, {"x": 1, "y": 91, "c": 1}, {"x": 2, "y": 81, "c": 0}, {"x": 2, "y": 53, "c": 1}, {"x": 3, "y": 19, "c": 0}, {"x": 3, "y": 87, "c": 1}, {"x": 4, "y": 52, "c": 0}, {"x": 4, "y": 48, "c": 1}, {"x": 5, "y": 24, "c": 0}, {"x": 5, "y": 49, "c": 1}, {"x": 6, "y": 87, "c": 0}, {"x": 6, "y": 66, "c": 1}, {"x": 7, "y": 17, "c": 0}, {"x": 7, "y": 27, "c": 1}, {"x": 8, "y": 68, "c": 0}, {"x": 8, "y": 16, "c": 1}, {"x": 9, "y": 49, "c": 0}, {"x": 9, "y": 15, "c": 1}], "transform": [{"type": "stack", "groupby": ["x"], "sort": {"field": "c"}, "field": "y"}]}], "scales": [{"name": "x", "type": "band", "range": "width", "domain": {"data": "table", "field": "x"}}, {"name": "y", "type": "linear", "range": "height", "nice": true, "zero": true, "domain": {"data": "table", "field": "y1"}}, {"name": "color", "type": "ordinal", "range": "category", "domain": {"data": "table", "field": "c"}}], "axes": [{"orient": "bottom", "scale": "x", "zindex": 1}, {"orient": "left", "scale": "y", "zindex": 1}], "marks": [{"type": "rect", "from": {"data": "table"}, "encode": {"enter": {"x": {"scale": "x", "field": "x"}, "width": {"scale": "x", "band": 1, "offset": -1}, "y": {"scale": "y", "field": "y0"}, "y2": {"scale": "y", "field": "y1"}, "fill": {"scale": "color", "field": "c"}}, "update": {"fillOpacity": {"value": 1}}, "hover": {"fillOpacity": {"value": 0.5}}}}]})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_52cf5a1d9e5246a7a5e4fec57353e9e4.bindTooltip(
+                `<div>
+                     Stop Name: 125 St<br> Transit District: 3<br> Police Sightings: High<br>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_88e41d9085054a17862e08c99a6c6de1 = L.circleMarker(
+                [40.737826, -74.000201],
+                {"bubblingMouseEvents": true, "color": "#00ff00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00ff00", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+        var popup_0be47298057343048925f41bebee2128 = L.popup({"maxWidth": 550});
+
+        
+            var vega_lite_84bdf9798d1b4438acd9c6999ae73c0c = $(`             <div id="vega_lite_84bdf9798d1b4438acd9c6999ae73c0c"></div>             `)[0];
+            popup_0be47298057343048925f41bebee2128.setContent(vega_lite_84bdf9798d1b4438acd9c6999ae73c0c);
+        
+
+        circle_marker_88e41d9085054a17862e08c99a6c6de1.bindPopup(popup_0be47298057343048925f41bebee2128)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_84bdf9798d1b4438acd9c6999ae73c0c, {"$schema": "https://vega.github.io/schema/vega/v5.json", "width": 500, "height": 200, "padding": 5, "data": [{"name": "table", "values": [{"x": 0, "y": 28, "c": 0}, {"x": 0, "y": 55, "c": 1}, {"x": 1, "y": 43, "c": 0}, {"x": 1, "y": 91, "c": 1}, {"x": 2, "y": 81, "c": 0}, {"x": 2, "y": 53, "c": 1}, {"x": 3, "y": 19, "c": 0}, {"x": 3, "y": 87, "c": 1}, {"x": 4, "y": 52, "c": 0}, {"x": 4, "y": 48, "c": 1}, {"x": 5, "y": 24, "c": 0}, {"x": 5, "y": 49, "c": 1}, {"x": 6, "y": 87, "c": 0}, {"x": 6, "y": 66, "c": 1}, {"x": 7, "y": 17, "c": 0}, {"x": 7, "y": 27, "c": 1}, {"x": 8, "y": 68, "c": 0}, {"x": 8, "y": 16, "c": 1}, {"x": 9, "y": 49, "c": 0}, {"x": 9, "y": 15, "c": 1}], "transform": [{"type": "stack", "groupby": ["x"], "sort": {"field": "c"}, "field": "y"}]}], "scales": [{"name": "x", "type": "band", "range": "width", "domain": {"data": "table", "field": "x"}}, {"name": "y", "type": "linear", "range": "height", "nice": true, "zero": true, "domain": {"data": "table", "field": "y1"}}, {"name": "color", "type": "ordinal", "range": "category", "domain": {"data": "table", "field": "c"}}], "axes": [{"orient": "bottom", "scale": "x", "zindex": 1}, {"orient": "left", "scale": "y", "zindex": 1}], "marks": [{"type": "rect", "from": {"data": "table"}, "encode": {"enter": {"x": {"scale": "x", "field": "x"}, "width": {"scale": "x", "band": 1, "offset": -1}, "y": {"scale": "y", "field": "y0"}, "y2": {"scale": "y", "field": "y1"}, "fill": {"scale": "color", "field": "c"}}, "update": {"fillOpacity": {"value": 1}}, "hover": {"fillOpacity": {"value": 0.5}}}}]})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_88e41d9085054a17862e08c99a6c6de1.bindTooltip(
+                `<div>
+                     Stop Name: 14 St<br> Transit District: 2<br> Police Sightings: High<br>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c8bfbee38333490c95d569f74c50ed25 = L.circleMarker(
+                [40.834041, -73.94489],
+                {"bubblingMouseEvents": true, "color": "#964b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#964b00", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+        var popup_70938f4f69704aa6bb61a63a8130e8b0 = L.popup({"maxWidth": 550});
+
+        
+            var vega_lite_f96bad2119984dfdae9c4b9c7cdc08f9 = $(`             <div id="vega_lite_f96bad2119984dfdae9c4b9c7cdc08f9"></div>             `)[0];
+            popup_70938f4f69704aa6bb61a63a8130e8b0.setContent(vega_lite_f96bad2119984dfdae9c4b9c7cdc08f9);
+        
+
+        circle_marker_c8bfbee38333490c95d569f74c50ed25.bindPopup(popup_70938f4f69704aa6bb61a63a8130e8b0)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_f96bad2119984dfdae9c4b9c7cdc08f9, {"$schema": "https://vega.github.io/schema/vega/v5.json", "width": 500, "height": 200, "padding": 5, "data": [{"name": "table", "values": [{"x": 0, "y": 28, "c": 0}, {"x": 0, "y": 55, "c": 1}, {"x": 1, "y": 43, "c": 0}, {"x": 1, "y": 91, "c": 1}, {"x": 2, "y": 81, "c": 0}, {"x": 2, "y": 53, "c": 1}, {"x": 3, "y": 19, "c": 0}, {"x": 3, "y": 87, "c": 1}, {"x": 4, "y": 52, "c": 0}, {"x": 4, "y": 48, "c": 1}, {"x": 5, "y": 24, "c": 0}, {"x": 5, "y": 49, "c": 1}, {"x": 6, "y": 87, "c": 0}, {"x": 6, "y": 66, "c": 1}, {"x": 7, "y": 17, "c": 0}, {"x": 7, "y": 27, "c": 1}, {"x": 8, "y": 68, "c": 0}, {"x": 8, "y": 16, "c": 1}, {"x": 9, "y": 49, "c": 0}, {"x": 9, "y": 15, "c": 1}], "transform": [{"type": "stack", "groupby": ["x"], "sort": {"field": "c"}, "field": "y"}]}], "scales": [{"name": "x", "type": "band", "range": "width", "domain": {"data": "table", "field": "x"}}, {"name": "y", "type": "linear", "range": "height", "nice": true, "zero": true, "domain": {"data": "table", "field": "y1"}}, {"name": "color", "type": "ordinal", "range": "category", "domain": {"data": "table", "field": "c"}}], "axes": [{"orient": "bottom", "scale": "x", "zindex": 1}, {"orient": "left", "scale": "y", "zindex": 1}], "marks": [{"type": "rect", "from": {"data": "table"}, "encode": {"enter": {"x": {"scale": "x", "field": "x"}, "width": {"scale": "x", "band": 1, "offset": -1}, "y": {"scale": "y", "field": "y0"}, "y2": {"scale": "y", "field": "y1"}, "fill": {"scale": "color", "field": "c"}}, "update": {"fillOpacity": {"value": 1}}, "hover": {"fillOpacity": {"value": 0.5}}}}]})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_c8bfbee38333490c95d569f74c50ed25.bindTooltip(
+                `<div>
+                     Stop Name: 157 St<br> Transit District: 3<br> Police Sightings: Low<br>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1fd75eca3dda4ed1b8cf7d020e96f3e5 = L.circleMarker(
+                [40.833771, -73.91844],
+                {"bubblingMouseEvents": true, "color": "#ff69b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff69b4", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+        var popup_2118a95f22ba42ca80028ddfc1208f87 = L.popup({"maxWidth": 550});
+
+        
+            var vega_lite_3f55caf8551a4d8daaba3bbf5876769a = $(`             <div id="vega_lite_3f55caf8551a4d8daaba3bbf5876769a"></div>             `)[0];
+            popup_2118a95f22ba42ca80028ddfc1208f87.setContent(vega_lite_3f55caf8551a4d8daaba3bbf5876769a);
+        
+
+        circle_marker_1fd75eca3dda4ed1b8cf7d020e96f3e5.bindPopup(popup_2118a95f22ba42ca80028ddfc1208f87)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_3f55caf8551a4d8daaba3bbf5876769a, {"$schema": "https://vega.github.io/schema/vega/v5.json", "width": 500, "height": 200, "padding": 5, "data": [{"name": "table", "values": [{"x": 0, "y": 28, "c": 0}, {"x": 0, "y": 55, "c": 1}, {"x": 1, "y": 43, "c": 0}, {"x": 1, "y": 91, "c": 1}, {"x": 2, "y": 81, "c": 0}, {"x": 2, "y": 53, "c": 1}, {"x": 3, "y": 19, "c": 0}, {"x": 3, "y": 87, "c": 1}, {"x": 4, "y": 52, "c": 0}, {"x": 4, "y": 48, "c": 1}, {"x": 5, "y": 24, "c": 0}, {"x": 5, "y": 49, "c": 1}, {"x": 6, "y": 87, "c": 0}, {"x": 6, "y": 66, "c": 1}, {"x": 7, "y": 17, "c": 0}, {"x": 7, "y": 27, "c": 1}, {"x": 8, "y": 68, "c": 0}, {"x": 8, "y": 16, "c": 1}, {"x": 9, "y": 49, "c": 0}, {"x": 9, "y": 15, "c": 1}], "transform": [{"type": "stack", "groupby": ["x"], "sort": {"field": "c"}, "field": "y"}]}], "scales": [{"name": "x", "type": "band", "range": "width", "domain": {"data": "table", "field": "x"}}, {"name": "y", "type": "linear", "range": "height", "nice": true, "zero": true, "domain": {"data": "table", "field": "y1"}}, {"name": "color", "type": "ordinal", "range": "category", "domain": {"data": "table", "field": "c"}}], "axes": [{"orient": "bottom", "scale": "x", "zindex": 1}, {"orient": "left", "scale": "y", "zindex": 1}], "marks": [{"type": "rect", "from": {"data": "table"}, "encode": {"enter": {"x": {"scale": "x", "field": "x"}, "width": {"scale": "x", "band": 1, "offset": -1}, "y": {"scale": "y", "field": "y0"}, "y2": {"scale": "y", "field": "y1"}, "fill": {"scale": "color", "field": "c"}}, "update": {"fillOpacity": {"value": 1}}, "hover": {"fillOpacity": {"value": 0.5}}}}]})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_1fd75eca3dda4ed1b8cf7d020e96f3e5.bindTooltip(
+                `<div>
+                     Stop Name: 167 St<br> Transit District: 11<br> Police Sightings: High<br>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4ab33fa9dcc94c7f8396fc1e23cb4e7a = L.circleMarker(
+                [40.757107, -73.97192],
+                {"bubblingMouseEvents": true, "color": "#000000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#000000", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+        var popup_1ab6713ac0f440d1854a6b3a69bd8281 = L.popup({"maxWidth": 550});
+
+        
+            var vega_lite_7f96650a33294f98b9962b8de438df88 = $(`             <div id="vega_lite_7f96650a33294f98b9962b8de438df88"></div>             `)[0];
+            popup_1ab6713ac0f440d1854a6b3a69bd8281.setContent(vega_lite_7f96650a33294f98b9962b8de438df88);
+        
+
+        circle_marker_4ab33fa9dcc94c7f8396fc1e23cb4e7a.bindPopup(popup_1ab6713ac0f440d1854a6b3a69bd8281)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_7f96650a33294f98b9962b8de438df88, {"$schema": "https://vega.github.io/schema/vega/v5.json", "width": 500, "height": 200, "padding": 5, "data": [{"name": "table", "values": [{"x": 0, "y": 28, "c": 0}, {"x": 0, "y": 55, "c": 1}, {"x": 1, "y": 43, "c": 0}, {"x": 1, "y": 91, "c": 1}, {"x": 2, "y": 81, "c": 0}, {"x": 2, "y": 53, "c": 1}, {"x": 3, "y": 19, "c": 0}, {"x": 3, "y": 87, "c": 1}, {"x": 4, "y": 52, "c": 0}, {"x": 4, "y": 48, "c": 1}, {"x": 5, "y": 24, "c": 0}, {"x": 5, "y": 49, "c": 1}, {"x": 6, "y": 87, "c": 0}, {"x": 6, "y": 66, "c": 1}, {"x": 7, "y": 17, "c": 0}, {"x": 7, "y": 27, "c": 1}, {"x": 8, "y": 68, "c": 0}, {"x": 8, "y": 16, "c": 1}, {"x": 9, "y": 49, "c": 0}, {"x": 9, "y": 15, "c": 1}], "transform": [{"type": "stack", "groupby": ["x"], "sort": {"field": "c"}, "field": "y"}]}], "scales": [{"name": "x", "type": "band", "range": "width", "domain": {"data": "table", "field": "x"}}, {"name": "y", "type": "linear", "range": "height", "nice": true, "zero": true, "domain": {"data": "table", "field": "y1"}}, {"name": "color", "type": "ordinal", "range": "category", "domain": {"data": "table", "field": "c"}}], "axes": [{"orient": "bottom", "scale": "x", "zindex": 1}, {"orient": "left", "scale": "y", "zindex": 1}], "marks": [{"type": "rect", "from": {"data": "table"}, "encode": {"enter": {"x": {"scale": "x", "field": "x"}, "width": {"scale": "x", "band": 1, "offset": -1}, "y": {"scale": "y", "field": "y0"}, "y2": {"scale": "y", "field": "y1"}, "fill": {"scale": "color", "field": "c"}}, "update": {"fillOpacity": {"value": 1}}, "hover": {"fillOpacity": {"value": 0.5}}}}]})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_4ab33fa9dcc94c7f8396fc1e23cb4e7a.bindTooltip(
+                `<div>
+                     Stop Name: 51 St<br> Transit District: 4<br> Police Sightings: Low<br>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4b04bfb437ee41e8a95e3e4a63c0eb82 = L.circleMarker(
+                [40.768246999999995, -73.98192900000001],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+        var popup_e296ff65b2dc421f874bdd71851f6f3c = L.popup({"maxWidth": 550});
+
+        
+            var vega_lite_2046310fcb994750be6a247c43b7e800 = $(`             <div id="vega_lite_2046310fcb994750be6a247c43b7e800"></div>             `)[0];
+            popup_e296ff65b2dc421f874bdd71851f6f3c.setContent(vega_lite_2046310fcb994750be6a247c43b7e800);
+        
+
+        circle_marker_4b04bfb437ee41e8a95e3e4a63c0eb82.bindPopup(popup_e296ff65b2dc421f874bdd71851f6f3c)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_2046310fcb994750be6a247c43b7e800, {"$schema": "https://vega.github.io/schema/vega/v5.json", "width": 500, "height": 200, "padding": 5, "data": [{"name": "table", "values": [{"x": 0, "y": 28, "c": 0}, {"x": 0, "y": 55, "c": 1}, {"x": 1, "y": 43, "c": 0}, {"x": 1, "y": 91, "c": 1}, {"x": 2, "y": 81, "c": 0}, {"x": 2, "y": 53, "c": 1}, {"x": 3, "y": 19, "c": 0}, {"x": 3, "y": 87, "c": 1}, {"x": 4, "y": 52, "c": 0}, {"x": 4, "y": 48, "c": 1}, {"x": 5, "y": 24, "c": 0}, {"x": 5, "y": 49, "c": 1}, {"x": 6, "y": 87, "c": 0}, {"x": 6, "y": 66, "c": 1}, {"x": 7, "y": 17, "c": 0}, {"x": 7, "y": 27, "c": 1}, {"x": 8, "y": 68, "c": 0}, {"x": 8, "y": 16, "c": 1}, {"x": 9, "y": 49, "c": 0}, {"x": 9, "y": 15, "c": 1}], "transform": [{"type": "stack", "groupby": ["x"], "sort": {"field": "c"}, "field": "y"}]}], "scales": [{"name": "x", "type": "band", "range": "width", "domain": {"data": "table", "field": "x"}}, {"name": "y", "type": "linear", "range": "height", "nice": true, "zero": true, "domain": {"data": "table", "field": "y1"}}, {"name": "color", "type": "ordinal", "range": "category", "domain": {"data": "table", "field": "c"}}], "axes": [{"orient": "bottom", "scale": "x", "zindex": 1}, {"orient": "left", "scale": "y", "zindex": 1}], "marks": [{"type": "rect", "from": {"data": "table"}, "encode": {"enter": {"x": {"scale": "x", "field": "x"}, "width": {"scale": "x", "band": 1, "offset": -1}, "y": {"scale": "y", "field": "y0"}, "y2": {"scale": "y", "field": "y1"}, "fill": {"scale": "color", "field": "c"}}, "update": {"fillOpacity": {"value": 1}}, "hover": {"fillOpacity": {"value": 0.5}}}}]})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_4b04bfb437ee41e8a95e3e4a63c0eb82.bindTooltip(
+                `<div>
+                     Stop Name: 59 St - Columbus Circle<br> Transit District: 1<br> Police Sightings: High<br>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0a607efdaea24162a93b371bf48d2420 = L.circleMarker(
+                [40.768799, -73.958424],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+        var popup_0efd0a2084b24d8ca7f4d256796fec7f = L.popup({"maxWidth": 550});
+
+        
+            var vega_lite_951317a748144ab8a0539996f8ccb73f = $(`             <div id="vega_lite_951317a748144ab8a0539996f8ccb73f"></div>             `)[0];
+            popup_0efd0a2084b24d8ca7f4d256796fec7f.setContent(vega_lite_951317a748144ab8a0539996f8ccb73f);
+        
+
+        circle_marker_0a607efdaea24162a93b371bf48d2420.bindPopup(popup_0efd0a2084b24d8ca7f4d256796fec7f)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_951317a748144ab8a0539996f8ccb73f, {"$schema": "https://vega.github.io/schema/vega/v5.json", "width": 500, "height": 200, "padding": 5, "data": [{"name": "table", "values": [{"x": 0, "y": 28, "c": 0}, {"x": 0, "y": 55, "c": 1}, {"x": 1, "y": 43, "c": 0}, {"x": 1, "y": 91, "c": 1}, {"x": 2, "y": 81, "c": 0}, {"x": 2, "y": 53, "c": 1}, {"x": 3, "y": 19, "c": 0}, {"x": 3, "y": 87, "c": 1}, {"x": 4, "y": 52, "c": 0}, {"x": 4, "y": 48, "c": 1}, {"x": 5, "y": 24, "c": 0}, {"x": 5, "y": 49, "c": 1}, {"x": 6, "y": 87, "c": 0}, {"x": 6, "y": 66, "c": 1}, {"x": 7, "y": 17, "c": 0}, {"x": 7, "y": 27, "c": 1}, {"x": 8, "y": 68, "c": 0}, {"x": 8, "y": 16, "c": 1}, {"x": 9, "y": 49, "c": 0}, {"x": 9, "y": 15, "c": 1}], "transform": [{"type": "stack", "groupby": ["x"], "sort": {"field": "c"}, "field": "y"}]}], "scales": [{"name": "x", "type": "band", "range": "width", "domain": {"data": "table", "field": "x"}}, {"name": "y", "type": "linear", "range": "height", "nice": true, "zero": true, "domain": {"data": "table", "field": "y1"}}, {"name": "color", "type": "ordinal", "range": "category", "domain": {"data": "table", "field": "c"}}], "axes": [{"orient": "bottom", "scale": "x", "zindex": 1}, {"orient": "left", "scale": "y", "zindex": 1}], "marks": [{"type": "rect", "from": {"data": "table"}, "encode": {"enter": {"x": {"scale": "x", "field": "x"}, "width": {"scale": "x", "band": 1, "offset": -1}, "y": {"scale": "y", "field": "y0"}, "y2": {"scale": "y", "field": "y1"}, "fill": {"scale": "color", "field": "c"}}, "update": {"fillOpacity": {"value": 1}}, "hover": {"fillOpacity": {"value": 0.5}}}}]})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_0a607efdaea24162a93b371bf48d2420.bindTooltip(
+                `<div>
+                     Stop Name: 72 St<br> Transit District: 1<br> Police Sightings: Low<br>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bcbf23077ff64d6693f10c5b565b66f4 = L.circleMarker(
+                [40.592721000000004, -73.97823000000001],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+        var popup_f79342d47e014bc1a91d973eb8c4a081 = L.popup({"maxWidth": 550});
+
+        
+            var vega_lite_52a92e2e5c48463db067f89484ebabc3 = $(`             <div id="vega_lite_52a92e2e5c48463db067f89484ebabc3"></div>             `)[0];
+            popup_f79342d47e014bc1a91d973eb8c4a081.setContent(vega_lite_52a92e2e5c48463db067f89484ebabc3);
+        
+
+        circle_marker_bcbf23077ff64d6693f10c5b565b66f4.bindPopup(popup_f79342d47e014bc1a91d973eb8c4a081)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_52a92e2e5c48463db067f89484ebabc3, {"$schema": "https://vega.github.io/schema/vega/v5.json", "width": 500, "height": 200, "padding": 5, "data": [{"name": "table", "values": [{"x": 0, "y": 28, "c": 0}, {"x": 0, "y": 55, "c": 1}, {"x": 1, "y": 43, "c": 0}, {"x": 1, "y": 91, "c": 1}, {"x": 2, "y": 81, "c": 0}, {"x": 2, "y": 53, "c": 1}, {"x": 3, "y": 19, "c": 0}, {"x": 3, "y": 87, "c": 1}, {"x": 4, "y": 52, "c": 0}, {"x": 4, "y": 48, "c": 1}, {"x": 5, "y": 24, "c": 0}, {"x": 5, "y": 49, "c": 1}, {"x": 6, "y": 87, "c": 0}, {"x": 6, "y": 66, "c": 1}, {"x": 7, "y": 17, "c": 0}, {"x": 7, "y": 27, "c": 1}, {"x": 8, "y": 68, "c": 0}, {"x": 8, "y": 16, "c": 1}, {"x": 9, "y": 49, "c": 0}, {"x": 9, "y": 15, "c": 1}], "transform": [{"type": "stack", "groupby": ["x"], "sort": {"field": "c"}, "field": "y"}]}], "scales": [{"name": "x", "type": "band", "range": "width", "domain": {"data": "table", "field": "x"}}, {"name": "y", "type": "linear", "range": "height", "nice": true, "zero": true, "domain": {"data": "table", "field": "y1"}}, {"name": "color", "type": "ordinal", "range": "category", "domain": {"data": "table", "field": "c"}}], "axes": [{"orient": "bottom", "scale": "x", "zindex": 1}, {"orient": "left", "scale": "y", "zindex": 1}], "marks": [{"type": "rect", "from": {"data": "table"}, "encode": {"enter": {"x": {"scale": "x", "field": "x"}, "width": {"scale": "x", "band": 1, "offset": -1}, "y": {"scale": "y", "field": "y0"}, "y2": {"scale": "y", "field": "y1"}, "fill": {"scale": "color", "field": "c"}}, "update": {"fillOpacity": {"value": 1}}, "hover": {"fillOpacity": {"value": 0.5}}}}]})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_bcbf23077ff64d6693f10c5b565b66f4.bindTooltip(
+                `<div>
+                     Stop Name: 86 St<br> Transit District: 1<br> Police Sightings: High<br>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_74cab8c3592f47f8b68775127fa11f3b = L.circleMarker(
+                [40.770258, -73.917843],
+                {"bubblingMouseEvents": true, "color": "#0000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+        var popup_865146c5ad704c86a0b0e43c8a694cb4 = L.popup({"maxWidth": 550});
+
+        
+            var vega_lite_dc8914cdad294a40aa5fbc519036a87c = $(`             <div id="vega_lite_dc8914cdad294a40aa5fbc519036a87c"></div>             `)[0];
+            popup_865146c5ad704c86a0b0e43c8a694cb4.setContent(vega_lite_dc8914cdad294a40aa5fbc519036a87c);
+        
+
+        circle_marker_74cab8c3592f47f8b68775127fa11f3b.bindPopup(popup_865146c5ad704c86a0b0e43c8a694cb4)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_dc8914cdad294a40aa5fbc519036a87c, {"$schema": "https://vega.github.io/schema/vega/v5.json", "width": 500, "height": 200, "padding": 5, "data": [{"name": "table", "values": [{"x": 0, "y": 28, "c": 0}, {"x": 0, "y": 55, "c": 1}, {"x": 1, "y": 43, "c": 0}, {"x": 1, "y": 91, "c": 1}, {"x": 2, "y": 81, "c": 0}, {"x": 2, "y": 53, "c": 1}, {"x": 3, "y": 19, "c": 0}, {"x": 3, "y": 87, "c": 1}, {"x": 4, "y": 52, "c": 0}, {"x": 4, "y": 48, "c": 1}, {"x": 5, "y": 24, "c": 0}, {"x": 5, "y": 49, "c": 1}, {"x": 6, "y": 87, "c": 0}, {"x": 6, "y": 66, "c": 1}, {"x": 7, "y": 17, "c": 0}, {"x": 7, "y": 27, "c": 1}, {"x": 8, "y": 68, "c": 0}, {"x": 8, "y": 16, "c": 1}, {"x": 9, "y": 49, "c": 0}, {"x": 9, "y": 15, "c": 1}], "transform": [{"type": "stack", "groupby": ["x"], "sort": {"field": "c"}, "field": "y"}]}], "scales": [{"name": "x", "type": "band", "range": "width", "domain": {"data": "table", "field": "x"}}, {"name": "y", "type": "linear", "range": "height", "nice": true, "zero": true, "domain": {"data": "table", "field": "y1"}}, {"name": "color", "type": "ordinal", "range": "category", "domain": {"data": "table", "field": "c"}}], "axes": [{"orient": "bottom", "scale": "x", "zindex": 1}, {"orient": "left", "scale": "y", "zindex": 1}], "marks": [{"type": "rect", "from": {"data": "table"}, "encode": {"enter": {"x": {"scale": "x", "field": "x"}, "width": {"scale": "x", "band": 1, "offset": -1}, "y": {"scale": "y", "field": "y0"}, "y2": {"scale": "y", "field": "y1"}, "fill": {"scale": "color", "field": "c"}}, "update": {"fillOpacity": {"value": 1}}, "hover": {"fillOpacity": {"value": 0.5}}}}]})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_74cab8c3592f47f8b68775127fa11f3b.bindTooltip(
+                `<div>
+                     Stop Name: Astoria Blvd<br> Transit District: 20<br> Police Sightings: Low<br>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d0bb861bbf9c4851b428d178efbf0f74 = L.circleMarker(
+                [40.675345, -73.903097],
+                {"bubblingMouseEvents": true, "color": "#8a2be2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8a2be2", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+        var popup_9fed6fee43944f2c91a78387ee79ffa9 = L.popup({"maxWidth": 550});
+
+        
+            var vega_lite_0ef9c421b987456bbb842d914e21e580 = $(`             <div id="vega_lite_0ef9c421b987456bbb842d914e21e580"></div>             `)[0];
+            popup_9fed6fee43944f2c91a78387ee79ffa9.setContent(vega_lite_0ef9c421b987456bbb842d914e21e580);
+        
+
+        circle_marker_d0bb861bbf9c4851b428d178efbf0f74.bindPopup(popup_9fed6fee43944f2c91a78387ee79ffa9)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_0ef9c421b987456bbb842d914e21e580, {"$schema": "https://vega.github.io/schema/vega/v5.json", "width": 500, "height": 200, "padding": 5, "data": [{"name": "table", "values": [{"x": 0, "y": 28, "c": 0}, {"x": 0, "y": 55, "c": 1}, {"x": 1, "y": 43, "c": 0}, {"x": 1, "y": 91, "c": 1}, {"x": 2, "y": 81, "c": 0}, {"x": 2, "y": 53, "c": 1}, {"x": 3, "y": 19, "c": 0}, {"x": 3, "y": 87, "c": 1}, {"x": 4, "y": 52, "c": 0}, {"x": 4, "y": 48, "c": 1}, {"x": 5, "y": 24, "c": 0}, {"x": 5, "y": 49, "c": 1}, {"x": 6, "y": 87, "c": 0}, {"x": 6, "y": 66, "c": 1}, {"x": 7, "y": 17, "c": 0}, {"x": 7, "y": 27, "c": 1}, {"x": 8, "y": 68, "c": 0}, {"x": 8, "y": 16, "c": 1}, {"x": 9, "y": 49, "c": 0}, {"x": 9, "y": 15, "c": 1}], "transform": [{"type": "stack", "groupby": ["x"], "sort": {"field": "c"}, "field": "y"}]}], "scales": [{"name": "x", "type": "band", "range": "width", "domain": {"data": "table", "field": "x"}}, {"name": "y", "type": "linear", "range": "height", "nice": true, "zero": true, "domain": {"data": "table", "field": "y1"}}, {"name": "color", "type": "ordinal", "range": "category", "domain": {"data": "table", "field": "c"}}], "axes": [{"orient": "bottom", "scale": "x", "zindex": 1}, {"orient": "left", "scale": "y", "zindex": 1}], "marks": [{"type": "rect", "from": {"data": "table"}, "encode": {"enter": {"x": {"scale": "x", "field": "x"}, "width": {"scale": "x", "band": 1, "offset": -1}, "y": {"scale": "y", "field": "y0"}, "y2": {"scale": "y", "field": "y1"}, "fill": {"scale": "color", "field": "c"}}, "update": {"fillOpacity": {"value": 1}}, "hover": {"fillOpacity": {"value": 0.5}}}}]})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_d0bb861bbf9c4851b428d178efbf0f74.bindTooltip(
+                `<div>
+                     Stop Name: Atlantic Av<br> Transit District: 32<br> Police Sightings: High<br>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_63d5854fc9074450affa6b1c8e340ef0 = L.circleMarker(
+                [40.585307, -73.82055799999999],
+                {"bubblingMouseEvents": true, "color": "#ffa500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa500", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+        var popup_44294864b3ad4564bec2b063b5b1cccd = L.popup({"maxWidth": 550});
+
+        
+            var vega_lite_2f1a2b77a7f6477d8cfa98ddfaca73a5 = $(`             <div id="vega_lite_2f1a2b77a7f6477d8cfa98ddfaca73a5"></div>             `)[0];
+            popup_44294864b3ad4564bec2b063b5b1cccd.setContent(vega_lite_2f1a2b77a7f6477d8cfa98ddfaca73a5);
+        
+
+        circle_marker_63d5854fc9074450affa6b1c8e340ef0.bindPopup(popup_44294864b3ad4564bec2b063b5b1cccd)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_2f1a2b77a7f6477d8cfa98ddfaca73a5, {"$schema": "https://vega.github.io/schema/vega/v5.json", "width": 500, "height": 200, "padding": 5, "data": [{"name": "table", "values": [{"x": 0, "y": 28, "c": 0}, {"x": 0, "y": 55, "c": 1}, {"x": 1, "y": 43, "c": 0}, {"x": 1, "y": 91, "c": 1}, {"x": 2, "y": 81, "c": 0}, {"x": 2, "y": 53, "c": 1}, {"x": 3, "y": 19, "c": 0}, {"x": 3, "y": 87, "c": 1}, {"x": 4, "y": 52, "c": 0}, {"x": 4, "y": 48, "c": 1}, {"x": 5, "y": 24, "c": 0}, {"x": 5, "y": 49, "c": 1}, {"x": 6, "y": 87, "c": 0}, {"x": 6, "y": 66, "c": 1}, {"x": 7, "y": 17, "c": 0}, {"x": 7, "y": 27, "c": 1}, {"x": 8, "y": 68, "c": 0}, {"x": 8, "y": 16, "c": 1}, {"x": 9, "y": 49, "c": 0}, {"x": 9, "y": 15, "c": 1}], "transform": [{"type": "stack", "groupby": ["x"], "sort": {"field": "c"}, "field": "y"}]}], "scales": [{"name": "x", "type": "band", "range": "width", "domain": {"data": "table", "field": "x"}}, {"name": "y", "type": "linear", "range": "height", "nice": true, "zero": true, "domain": {"data": "table", "field": "y1"}}, {"name": "color", "type": "ordinal", "range": "category", "domain": {"data": "table", "field": "c"}}], "axes": [{"orient": "bottom", "scale": "x", "zindex": 1}, {"orient": "left", "scale": "y", "zindex": 1}], "marks": [{"type": "rect", "from": {"data": "table"}, "encode": {"enter": {"x": {"scale": "x", "field": "x"}, "width": {"scale": "x", "band": 1, "offset": -1}, "y": {"scale": "y", "field": "y0"}, "y2": {"scale": "y", "field": "y1"}, "fill": {"scale": "color", "field": "c"}}, "update": {"fillOpacity": {"value": 1}}, "hover": {"fillOpacity": {"value": 0.5}}}}]})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_63d5854fc9074450affa6b1c8e340ef0.bindTooltip(
+                `<div>
+                     Stop Name: Beach 98 St<br> Transit District: 23<br> Police Sightings: Low<br>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_27a25ae1219d431e953590c6ccb47cbf = L.circleMarker(
+                [40.680303, -73.995048],
+                {"bubblingMouseEvents": true, "color": "#008080", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008080", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+        var popup_7098a0a55a6f405c94a90d6abfde1754 = L.popup({"maxWidth": 550});
+
+        
+            var vega_lite_0859ab3708e240e2945fe4a68d711d14 = $(`             <div id="vega_lite_0859ab3708e240e2945fe4a68d711d14"></div>             `)[0];
+            popup_7098a0a55a6f405c94a90d6abfde1754.setContent(vega_lite_0859ab3708e240e2945fe4a68d711d14);
+        
+
+        circle_marker_27a25ae1219d431e953590c6ccb47cbf.bindPopup(popup_7098a0a55a6f405c94a90d6abfde1754)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_0859ab3708e240e2945fe4a68d711d14, {"$schema": "https://vega.github.io/schema/vega/v5.json", "width": 500, "height": 200, "padding": 5, "data": [{"name": "table", "values": [{"x": 0, "y": 28, "c": 0}, {"x": 0, "y": 55, "c": 1}, {"x": 1, "y": 43, "c": 0}, {"x": 1, "y": 91, "c": 1}, {"x": 2, "y": 81, "c": 0}, {"x": 2, "y": 53, "c": 1}, {"x": 3, "y": 19, "c": 0}, {"x": 3, "y": 87, "c": 1}, {"x": 4, "y": 52, "c": 0}, {"x": 4, "y": 48, "c": 1}, {"x": 5, "y": 24, "c": 0}, {"x": 5, "y": 49, "c": 1}, {"x": 6, "y": 87, "c": 0}, {"x": 6, "y": 66, "c": 1}, {"x": 7, "y": 17, "c": 0}, {"x": 7, "y": 27, "c": 1}, {"x": 8, "y": 68, "c": 0}, {"x": 8, "y": 16, "c": 1}, {"x": 9, "y": 49, "c": 0}, {"x": 9, "y": 15, "c": 1}], "transform": [{"type": "stack", "groupby": ["x"], "sort": {"field": "c"}, "field": "y"}]}], "scales": [{"name": "x", "type": "band", "range": "width", "domain": {"data": "table", "field": "x"}}, {"name": "y", "type": "linear", "range": "height", "nice": true, "zero": true, "domain": {"data": "table", "field": "y1"}}, {"name": "color", "type": "ordinal", "range": "category", "domain": {"data": "table", "field": "c"}}], "axes": [{"orient": "bottom", "scale": "x", "zindex": 1}, {"orient": "left", "scale": "y", "zindex": 1}], "marks": [{"type": "rect", "from": {"data": "table"}, "encode": {"enter": {"x": {"scale": "x", "field": "x"}, "width": {"scale": "x", "band": 1, "offset": -1}, "y": {"scale": "y", "field": "y0"}, "y2": {"scale": "y", "field": "y1"}, "fill": {"scale": "color", "field": "c"}}, "update": {"fillOpacity": {"value": 1}}, "hover": {"fillOpacity": {"value": 0.5}}}}]})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_27a25ae1219d431e953590c6ccb47cbf.bindTooltip(
+                `<div>
+                     Stop Name: Carroll St<br> Transit District: 30<br> Police Sightings: Low<br>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_acc8b70f3e474dcb96bd541897a5281d = L.circleMarker(
+                [40.746553999999996, -73.943832],
+                {"bubblingMouseEvents": true, "color": "#008080", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008080", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+        var popup_031e84ceb04c42b1866f8dbea2a8a55c = L.popup({"maxWidth": 550});
+
+        
+            var vega_lite_d27a7581c5f24fb09e38855ca406c585 = $(`             <div id="vega_lite_d27a7581c5f24fb09e38855ca406c585"></div>             `)[0];
+            popup_031e84ceb04c42b1866f8dbea2a8a55c.setContent(vega_lite_d27a7581c5f24fb09e38855ca406c585);
+        
+
+        circle_marker_acc8b70f3e474dcb96bd541897a5281d.bindPopup(popup_031e84ceb04c42b1866f8dbea2a8a55c)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_d27a7581c5f24fb09e38855ca406c585, {"$schema": "https://vega.github.io/schema/vega/v5.json", "width": 500, "height": 200, "padding": 5, "data": [{"name": "table", "values": [{"x": 0, "y": 28, "c": 0}, {"x": 0, "y": 55, "c": 1}, {"x": 1, "y": 43, "c": 0}, {"x": 1, "y": 91, "c": 1}, {"x": 2, "y": 81, "c": 0}, {"x": 2, "y": 53, "c": 1}, {"x": 3, "y": 19, "c": 0}, {"x": 3, "y": 87, "c": 1}, {"x": 4, "y": 52, "c": 0}, {"x": 4, "y": 48, "c": 1}, {"x": 5, "y": 24, "c": 0}, {"x": 5, "y": 49, "c": 1}, {"x": 6, "y": 87, "c": 0}, {"x": 6, "y": 66, "c": 1}, {"x": 7, "y": 17, "c": 0}, {"x": 7, "y": 27, "c": 1}, {"x": 8, "y": 68, "c": 0}, {"x": 8, "y": 16, "c": 1}, {"x": 9, "y": 49, "c": 0}, {"x": 9, "y": 15, "c": 1}], "transform": [{"type": "stack", "groupby": ["x"], "sort": {"field": "c"}, "field": "y"}]}], "scales": [{"name": "x", "type": "band", "range": "width", "domain": {"data": "table", "field": "x"}}, {"name": "y", "type": "linear", "range": "height", "nice": true, "zero": true, "domain": {"data": "table", "field": "y1"}}, {"name": "color", "type": "ordinal", "range": "category", "domain": {"data": "table", "field": "c"}}], "axes": [{"orient": "bottom", "scale": "x", "zindex": 1}, {"orient": "left", "scale": "y", "zindex": 1}], "marks": [{"type": "rect", "from": {"data": "table"}, "encode": {"enter": {"x": {"scale": "x", "field": "x"}, "width": {"scale": "x", "band": 1, "offset": -1}, "y": {"scale": "y", "field": "y0"}, "y2": {"scale": "y", "field": "y1"}, "fill": {"scale": "color", "field": "c"}}, "update": {"fillOpacity": {"value": 1}}, "hover": {"fillOpacity": {"value": 0.5}}}}]})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_acc8b70f3e474dcb96bd541897a5281d.bindTooltip(
+                `<div>
+                     Stop Name: Court Sq<br> Transit District: 30<br> Police Sightings: High<br>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2638d920b99e4b42a69a744e7000ec8d = L.circleMarker(
+                [40.636119, -73.978172],
+                {"bubblingMouseEvents": true, "color": "#b5651d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b5651d", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+        var popup_2d80a0cc8e2e4f619a8e06a932cde2c9 = L.popup({"maxWidth": 550});
+
+        
+            var vega_lite_cf2278cee3e64f4fa660f6b62e1836b7 = $(`             <div id="vega_lite_cf2278cee3e64f4fa660f6b62e1836b7"></div>             `)[0];
+            popup_2d80a0cc8e2e4f619a8e06a932cde2c9.setContent(vega_lite_cf2278cee3e64f4fa660f6b62e1836b7);
+        
+
+        circle_marker_2638d920b99e4b42a69a744e7000ec8d.bindPopup(popup_2d80a0cc8e2e4f619a8e06a932cde2c9)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_cf2278cee3e64f4fa660f6b62e1836b7, {"$schema": "https://vega.github.io/schema/vega/v5.json", "width": 500, "height": 200, "padding": 5, "data": [{"name": "table", "values": [{"x": 0, "y": 28, "c": 0}, {"x": 0, "y": 55, "c": 1}, {"x": 1, "y": 43, "c": 0}, {"x": 1, "y": 91, "c": 1}, {"x": 2, "y": 81, "c": 0}, {"x": 2, "y": 53, "c": 1}, {"x": 3, "y": 19, "c": 0}, {"x": 3, "y": 87, "c": 1}, {"x": 4, "y": 52, "c": 0}, {"x": 4, "y": 48, "c": 1}, {"x": 5, "y": 24, "c": 0}, {"x": 5, "y": 49, "c": 1}, {"x": 6, "y": 87, "c": 0}, {"x": 6, "y": 66, "c": 1}, {"x": 7, "y": 17, "c": 0}, {"x": 7, "y": 27, "c": 1}, {"x": 8, "y": 68, "c": 0}, {"x": 8, "y": 16, "c": 1}, {"x": 9, "y": 49, "c": 0}, {"x": 9, "y": 15, "c": 1}], "transform": [{"type": "stack", "groupby": ["x"], "sort": {"field": "c"}, "field": "y"}]}], "scales": [{"name": "x", "type": "band", "range": "width", "domain": {"data": "table", "field": "x"}}, {"name": "y", "type": "linear", "range": "height", "nice": true, "zero": true, "domain": {"data": "table", "field": "y1"}}, {"name": "color", "type": "ordinal", "range": "category", "domain": {"data": "table", "field": "c"}}], "axes": [{"orient": "bottom", "scale": "x", "zindex": 1}, {"orient": "left", "scale": "y", "zindex": 1}], "marks": [{"type": "rect", "from": {"data": "table"}, "encode": {"enter": {"x": {"scale": "x", "field": "x"}, "width": {"scale": "x", "band": 1, "offset": -1}, "y": {"scale": "y", "field": "y0"}, "y2": {"scale": "y", "field": "y1"}, "fill": {"scale": "color", "field": "c"}}, "update": {"fillOpacity": {"value": 1}}, "hover": {"fillOpacity": {"value": 0.5}}}}]})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_2638d920b99e4b42a69a744e7000ec8d.bindTooltip(
+                `<div>
+                     Stop Name: Ditmas Av<br> Transit District: 34<br> Police Sightings: Low<br>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a2ba545224814c309252fa951661fabc = L.circleMarker(
+                [40.670682, -73.95813100000001],
+                {"bubblingMouseEvents": true, "color": "#8a2be2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8a2be2", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+        var popup_09e793aa0bea4a1f9374137d456ef9f9 = L.popup({"maxWidth": 550});
+
+        
+            var vega_lite_a71a549e99a142188cb5375732f51efe = $(`             <div id="vega_lite_a71a549e99a142188cb5375732f51efe"></div>             `)[0];
+            popup_09e793aa0bea4a1f9374137d456ef9f9.setContent(vega_lite_a71a549e99a142188cb5375732f51efe);
+        
+
+        circle_marker_a2ba545224814c309252fa951661fabc.bindPopup(popup_09e793aa0bea4a1f9374137d456ef9f9)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_a71a549e99a142188cb5375732f51efe, {"$schema": "https://vega.github.io/schema/vega/v5.json", "width": 500, "height": 200, "padding": 5, "data": [{"name": "table", "values": [{"x": 0, "y": 28, "c": 0}, {"x": 0, "y": 55, "c": 1}, {"x": 1, "y": 43, "c": 0}, {"x": 1, "y": 91, "c": 1}, {"x": 2, "y": 81, "c": 0}, {"x": 2, "y": 53, "c": 1}, {"x": 3, "y": 19, "c": 0}, {"x": 3, "y": 87, "c": 1}, {"x": 4, "y": 52, "c": 0}, {"x": 4, "y": 48, "c": 1}, {"x": 5, "y": 24, "c": 0}, {"x": 5, "y": 49, "c": 1}, {"x": 6, "y": 87, "c": 0}, {"x": 6, "y": 66, "c": 1}, {"x": 7, "y": 17, "c": 0}, {"x": 7, "y": 27, "c": 1}, {"x": 8, "y": 68, "c": 0}, {"x": 8, "y": 16, "c": 1}, {"x": 9, "y": 49, "c": 0}, {"x": 9, "y": 15, "c": 1}], "transform": [{"type": "stack", "groupby": ["x"], "sort": {"field": "c"}, "field": "y"}]}], "scales": [{"name": "x", "type": "band", "range": "width", "domain": {"data": "table", "field": "x"}}, {"name": "y", "type": "linear", "range": "height", "nice": true, "zero": true, "domain": {"data": "table", "field": "y1"}}, {"name": "color", "type": "ordinal", "range": "category", "domain": {"data": "table", "field": "c"}}], "axes": [{"orient": "bottom", "scale": "x", "zindex": 1}, {"orient": "left", "scale": "y", "zindex": 1}], "marks": [{"type": "rect", "from": {"data": "table"}, "encode": {"enter": {"x": {"scale": "x", "field": "x"}, "width": {"scale": "x", "band": 1, "offset": -1}, "y": {"scale": "y", "field": "y0"}, "y2": {"scale": "y", "field": "y1"}, "fill": {"scale": "color", "field": "c"}}, "update": {"fillOpacity": {"value": 1}}, "hover": {"fillOpacity": {"value": 0.5}}}}]})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_a2ba545224814c309252fa951661fabc.bindTooltip(
+                `<div>
+                     Stop Name: Franklin Av<br> Transit District: 32<br> Police Sightings: High<br>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d7947e1e2e1b4f73b8d1eff7217f4e36 = L.circleMarker(
+                [40.719318, -74.006886],
+                {"bubblingMouseEvents": true, "color": "#00ff00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#00ff00", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+        var popup_6e83d6ed4cf7496d938683d0ea1db2fd = L.popup({"maxWidth": 550});
+
+        
+            var vega_lite_707c2a04031e4e4cbb680a381dc46f3c = $(`             <div id="vega_lite_707c2a04031e4e4cbb680a381dc46f3c"></div>             `)[0];
+            popup_6e83d6ed4cf7496d938683d0ea1db2fd.setContent(vega_lite_707c2a04031e4e4cbb680a381dc46f3c);
+        
+
+        circle_marker_d7947e1e2e1b4f73b8d1eff7217f4e36.bindPopup(popup_6e83d6ed4cf7496d938683d0ea1db2fd)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_707c2a04031e4e4cbb680a381dc46f3c, {"$schema": "https://vega.github.io/schema/vega/v5.json", "width": 500, "height": 200, "padding": 5, "data": [{"name": "table", "values": [{"x": 0, "y": 28, "c": 0}, {"x": 0, "y": 55, "c": 1}, {"x": 1, "y": 43, "c": 0}, {"x": 1, "y": 91, "c": 1}, {"x": 2, "y": 81, "c": 0}, {"x": 2, "y": 53, "c": 1}, {"x": 3, "y": 19, "c": 0}, {"x": 3, "y": 87, "c": 1}, {"x": 4, "y": 52, "c": 0}, {"x": 4, "y": 48, "c": 1}, {"x": 5, "y": 24, "c": 0}, {"x": 5, "y": 49, "c": 1}, {"x": 6, "y": 87, "c": 0}, {"x": 6, "y": 66, "c": 1}, {"x": 7, "y": 17, "c": 0}, {"x": 7, "y": 27, "c": 1}, {"x": 8, "y": 68, "c": 0}, {"x": 8, "y": 16, "c": 1}, {"x": 9, "y": 49, "c": 0}, {"x": 9, "y": 15, "c": 1}], "transform": [{"type": "stack", "groupby": ["x"], "sort": {"field": "c"}, "field": "y"}]}], "scales": [{"name": "x", "type": "band", "range": "width", "domain": {"data": "table", "field": "x"}}, {"name": "y", "type": "linear", "range": "height", "nice": true, "zero": true, "domain": {"data": "table", "field": "y1"}}, {"name": "color", "type": "ordinal", "range": "category", "domain": {"data": "table", "field": "c"}}], "axes": [{"orient": "bottom", "scale": "x", "zindex": 1}, {"orient": "left", "scale": "y", "zindex": 1}], "marks": [{"type": "rect", "from": {"data": "table"}, "encode": {"enter": {"x": {"scale": "x", "field": "x"}, "width": {"scale": "x", "band": 1, "offset": -1}, "y": {"scale": "y", "field": "y0"}, "y2": {"scale": "y", "field": "y1"}, "fill": {"scale": "color", "field": "c"}}, "update": {"fillOpacity": {"value": 1}}, "hover": {"fillOpacity": {"value": 0.5}}}}]})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_d7947e1e2e1b4f73b8d1eff7217f4e36.bindTooltip(
+                `<div>
+                     Stop Name: Franklin St<br> Transit District: 2<br> Police Sightings: Low<br>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8a0f45eb9a7940279bfad34186e49300 = L.circleMarker(
+                [40.829993, -73.891865],
+                {"bubblingMouseEvents": true, "color": "#ffff00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+        var popup_aaf701ca9f024fdfbfa455c9d648b792 = L.popup({"maxWidth": 550});
+
+        
+            var vega_lite_7696a7b961134f2b8c61084a0354f718 = $(`             <div id="vega_lite_7696a7b961134f2b8c61084a0354f718"></div>             `)[0];
+            popup_aaf701ca9f024fdfbfa455c9d648b792.setContent(vega_lite_7696a7b961134f2b8c61084a0354f718);
+        
+
+        circle_marker_8a0f45eb9a7940279bfad34186e49300.bindPopup(popup_aaf701ca9f024fdfbfa455c9d648b792)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_7696a7b961134f2b8c61084a0354f718, {"$schema": "https://vega.github.io/schema/vega/v5.json", "width": 500, "height": 200, "padding": 5, "data": [{"name": "table", "values": [{"x": 0, "y": 28, "c": 0}, {"x": 0, "y": 55, "c": 1}, {"x": 1, "y": 43, "c": 0}, {"x": 1, "y": 91, "c": 1}, {"x": 2, "y": 81, "c": 0}, {"x": 2, "y": 53, "c": 1}, {"x": 3, "y": 19, "c": 0}, {"x": 3, "y": 87, "c": 1}, {"x": 4, "y": 52, "c": 0}, {"x": 4, "y": 48, "c": 1}, {"x": 5, "y": 24, "c": 0}, {"x": 5, "y": 49, "c": 1}, {"x": 6, "y": 87, "c": 0}, {"x": 6, "y": 66, "c": 1}, {"x": 7, "y": 17, "c": 0}, {"x": 7, "y": 27, "c": 1}, {"x": 8, "y": 68, "c": 0}, {"x": 8, "y": 16, "c": 1}, {"x": 9, "y": 49, "c": 0}, {"x": 9, "y": 15, "c": 1}], "transform": [{"type": "stack", "groupby": ["x"], "sort": {"field": "c"}, "field": "y"}]}], "scales": [{"name": "x", "type": "band", "range": "width", "domain": {"data": "table", "field": "x"}}, {"name": "y", "type": "linear", "range": "height", "nice": true, "zero": true, "domain": {"data": "table", "field": "y1"}}, {"name": "color", "type": "ordinal", "range": "category", "domain": {"data": "table", "field": "c"}}], "axes": [{"orient": "bottom", "scale": "x", "zindex": 1}, {"orient": "left", "scale": "y", "zindex": 1}], "marks": [{"type": "rect", "from": {"data": "table"}, "encode": {"enter": {"x": {"scale": "x", "field": "x"}, "width": {"scale": "x", "band": 1, "offset": -1}, "y": {"scale": "y", "field": "y0"}, "y2": {"scale": "y", "field": "y1"}, "fill": {"scale": "color", "field": "c"}}, "update": {"fillOpacity": {"value": 1}}, "hover": {"fillOpacity": {"value": 0.5}}}}]})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_8a0f45eb9a7940279bfad34186e49300.bindTooltip(
+                `<div>
+                     Stop Name: Freeman St<br> Transit District: 12<br> Police Sightings: Low<br>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c37365e934784af0878978b3c9697d76 = L.circleMarker(
+                [40.81649, -73.90780699999999],
+                {"bubblingMouseEvents": true, "color": "#ffff00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffff00", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+        var popup_757cb6c566f742cababbc411d4bb8b5a = L.popup({"maxWidth": 550});
+
+        
+            var vega_lite_ccb58acfe97b4f81be304f281fb778ef = $(`             <div id="vega_lite_ccb58acfe97b4f81be304f281fb778ef"></div>             `)[0];
+            popup_757cb6c566f742cababbc411d4bb8b5a.setContent(vega_lite_ccb58acfe97b4f81be304f281fb778ef);
+        
+
+        circle_marker_c37365e934784af0878978b3c9697d76.bindPopup(popup_757cb6c566f742cababbc411d4bb8b5a)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_ccb58acfe97b4f81be304f281fb778ef, {"$schema": "https://vega.github.io/schema/vega/v5.json", "width": 500, "height": 200, "padding": 5, "data": [{"name": "table", "values": [{"x": 0, "y": 28, "c": 0}, {"x": 0, "y": 55, "c": 1}, {"x": 1, "y": 43, "c": 0}, {"x": 1, "y": 91, "c": 1}, {"x": 2, "y": 81, "c": 0}, {"x": 2, "y": 53, "c": 1}, {"x": 3, "y": 19, "c": 0}, {"x": 3, "y": 87, "c": 1}, {"x": 4, "y": 52, "c": 0}, {"x": 4, "y": 48, "c": 1}, {"x": 5, "y": 24, "c": 0}, {"x": 5, "y": 49, "c": 1}, {"x": 6, "y": 87, "c": 0}, {"x": 6, "y": 66, "c": 1}, {"x": 7, "y": 17, "c": 0}, {"x": 7, "y": 27, "c": 1}, {"x": 8, "y": 68, "c": 0}, {"x": 8, "y": 16, "c": 1}, {"x": 9, "y": 49, "c": 0}, {"x": 9, "y": 15, "c": 1}], "transform": [{"type": "stack", "groupby": ["x"], "sort": {"field": "c"}, "field": "y"}]}], "scales": [{"name": "x", "type": "band", "range": "width", "domain": {"data": "table", "field": "x"}}, {"name": "y", "type": "linear", "range": "height", "nice": true, "zero": true, "domain": {"data": "table", "field": "y1"}}, {"name": "color", "type": "ordinal", "range": "category", "domain": {"data": "table", "field": "c"}}], "axes": [{"orient": "bottom", "scale": "x", "zindex": 1}, {"orient": "left", "scale": "y", "zindex": 1}], "marks": [{"type": "rect", "from": {"data": "table"}, "encode": {"enter": {"x": {"scale": "x", "field": "x"}, "width": {"scale": "x", "band": 1, "offset": -1}, "y": {"scale": "y", "field": "y0"}, "y2": {"scale": "y", "field": "y1"}, "fill": {"scale": "color", "field": "c"}}, "update": {"fillOpacity": {"value": 1}}, "hover": {"fillOpacity": {"value": 0.5}}}}]})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_c37365e934784af0878978b3c9697d76.bindTooltip(
+                `<div>
+                     Stop Name: Jackson Av<br> Transit District: 12<br> Police Sightings: High<br>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_24215d10a31f4a8cb05c73efa41820de = L.circleMarker(
+                [40.844434, -73.91468499999999],
+                {"bubblingMouseEvents": true, "color": "#ff69b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff69b4", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+        var popup_9cbf7e155c704af9ace9e6445a1bccf9 = L.popup({"maxWidth": 550});
+
+        
+            var vega_lite_7a3e7acc76c045c79702b0e50d61c202 = $(`             <div id="vega_lite_7a3e7acc76c045c79702b0e50d61c202"></div>             `)[0];
+            popup_9cbf7e155c704af9ace9e6445a1bccf9.setContent(vega_lite_7a3e7acc76c045c79702b0e50d61c202);
+        
+
+        circle_marker_24215d10a31f4a8cb05c73efa41820de.bindPopup(popup_9cbf7e155c704af9ace9e6445a1bccf9)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_7a3e7acc76c045c79702b0e50d61c202, {"$schema": "https://vega.github.io/schema/vega/v5.json", "width": 500, "height": 200, "padding": 5, "data": [{"name": "table", "values": [{"x": 0, "y": 28, "c": 0}, {"x": 0, "y": 55, "c": 1}, {"x": 1, "y": 43, "c": 0}, {"x": 1, "y": 91, "c": 1}, {"x": 2, "y": 81, "c": 0}, {"x": 2, "y": 53, "c": 1}, {"x": 3, "y": 19, "c": 0}, {"x": 3, "y": 87, "c": 1}, {"x": 4, "y": 52, "c": 0}, {"x": 4, "y": 48, "c": 1}, {"x": 5, "y": 24, "c": 0}, {"x": 5, "y": 49, "c": 1}, {"x": 6, "y": 87, "c": 0}, {"x": 6, "y": 66, "c": 1}, {"x": 7, "y": 17, "c": 0}, {"x": 7, "y": 27, "c": 1}, {"x": 8, "y": 68, "c": 0}, {"x": 8, "y": 16, "c": 1}, {"x": 9, "y": 49, "c": 0}, {"x": 9, "y": 15, "c": 1}], "transform": [{"type": "stack", "groupby": ["x"], "sort": {"field": "c"}, "field": "y"}]}], "scales": [{"name": "x", "type": "band", "range": "width", "domain": {"data": "table", "field": "x"}}, {"name": "y", "type": "linear", "range": "height", "nice": true, "zero": true, "domain": {"data": "table", "field": "y1"}}, {"name": "color", "type": "ordinal", "range": "category", "domain": {"data": "table", "field": "c"}}], "axes": [{"orient": "bottom", "scale": "x", "zindex": 1}, {"orient": "left", "scale": "y", "zindex": 1}], "marks": [{"type": "rect", "from": {"data": "table"}, "encode": {"enter": {"x": {"scale": "x", "field": "x"}, "width": {"scale": "x", "band": 1, "offset": -1}, "y": {"scale": "y", "field": "y0"}, "y2": {"scale": "y", "field": "y1"}, "fill": {"scale": "color", "field": "c"}}, "update": {"fillOpacity": {"value": 1}}, "hover": {"fillOpacity": {"value": 0.5}}}}]})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_24215d10a31f4a8cb05c73efa41820de.bindTooltip(
+                `<div>
+                     Stop Name: Mt Eden Av<br> Transit District: 11<br> Police Sightings: Low<br>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6e4bf61b40574dca9dfa67a3aba64611 = L.circleMarker(
+                [40.639967, -73.948411],
+                {"bubblingMouseEvents": true, "color": "#8a2be2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8a2be2", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+        var popup_220af9aa4a3e40f6ad574cb3ea3a2acd = L.popup({"maxWidth": 550});
+
+        
+            var vega_lite_6bcf330b982b459d89906028f4e90cff = $(`             <div id="vega_lite_6bcf330b982b459d89906028f4e90cff"></div>             `)[0];
+            popup_220af9aa4a3e40f6ad574cb3ea3a2acd.setContent(vega_lite_6bcf330b982b459d89906028f4e90cff);
+        
+
+        circle_marker_6e4bf61b40574dca9dfa67a3aba64611.bindPopup(popup_220af9aa4a3e40f6ad574cb3ea3a2acd)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_6bcf330b982b459d89906028f4e90cff, {"$schema": "https://vega.github.io/schema/vega/v5.json", "width": 500, "height": 200, "padding": 5, "data": [{"name": "table", "values": [{"x": 0, "y": 28, "c": 0}, {"x": 0, "y": 55, "c": 1}, {"x": 1, "y": 43, "c": 0}, {"x": 1, "y": 91, "c": 1}, {"x": 2, "y": 81, "c": 0}, {"x": 2, "y": 53, "c": 1}, {"x": 3, "y": 19, "c": 0}, {"x": 3, "y": 87, "c": 1}, {"x": 4, "y": 52, "c": 0}, {"x": 4, "y": 48, "c": 1}, {"x": 5, "y": 24, "c": 0}, {"x": 5, "y": 49, "c": 1}, {"x": 6, "y": 87, "c": 0}, {"x": 6, "y": 66, "c": 1}, {"x": 7, "y": 17, "c": 0}, {"x": 7, "y": 27, "c": 1}, {"x": 8, "y": 68, "c": 0}, {"x": 8, "y": 16, "c": 1}, {"x": 9, "y": 49, "c": 0}, {"x": 9, "y": 15, "c": 1}], "transform": [{"type": "stack", "groupby": ["x"], "sort": {"field": "c"}, "field": "y"}]}], "scales": [{"name": "x", "type": "band", "range": "width", "domain": {"data": "table", "field": "x"}}, {"name": "y", "type": "linear", "range": "height", "nice": true, "zero": true, "domain": {"data": "table", "field": "y1"}}, {"name": "color", "type": "ordinal", "range": "category", "domain": {"data": "table", "field": "c"}}], "axes": [{"orient": "bottom", "scale": "x", "zindex": 1}, {"orient": "left", "scale": "y", "zindex": 1}], "marks": [{"type": "rect", "from": {"data": "table"}, "encode": {"enter": {"x": {"scale": "x", "field": "x"}, "width": {"scale": "x", "band": 1, "offset": -1}, "y": {"scale": "y", "field": "y0"}, "y2": {"scale": "y", "field": "y1"}, "fill": {"scale": "color", "field": "c"}}, "update": {"fillOpacity": {"value": 1}}, "hover": {"fillOpacity": {"value": 0.5}}}}]})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_6e4bf61b40574dca9dfa67a3aba64611.bindTooltip(
+                `<div>
+                     Stop Name: Newkirk Av<br> Transit District: 32<br> Police Sightings: High<br>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b51854ca36ed473f98d43da994b3a2e9 = L.circleMarker(
+                [40.68141, -73.880039],
+                {"bubblingMouseEvents": true, "color": "#800080", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800080", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+        var popup_adba25ac717c4d8e8fbaea07ce446871 = L.popup({"maxWidth": 550});
+
+        
+            var vega_lite_69c2521489444279b05c0247d1cddb33 = $(`             <div id="vega_lite_69c2521489444279b05c0247d1cddb33"></div>             `)[0];
+            popup_adba25ac717c4d8e8fbaea07ce446871.setContent(vega_lite_69c2521489444279b05c0247d1cddb33);
+        
+
+        circle_marker_b51854ca36ed473f98d43da994b3a2e9.bindPopup(popup_adba25ac717c4d8e8fbaea07ce446871)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_69c2521489444279b05c0247d1cddb33, {"$schema": "https://vega.github.io/schema/vega/v5.json", "width": 500, "height": 200, "padding": 5, "data": [{"name": "table", "values": [{"x": 0, "y": 28, "c": 0}, {"x": 0, "y": 55, "c": 1}, {"x": 1, "y": 43, "c": 0}, {"x": 1, "y": 91, "c": 1}, {"x": 2, "y": 81, "c": 0}, {"x": 2, "y": 53, "c": 1}, {"x": 3, "y": 19, "c": 0}, {"x": 3, "y": 87, "c": 1}, {"x": 4, "y": 52, "c": 0}, {"x": 4, "y": 48, "c": 1}, {"x": 5, "y": 24, "c": 0}, {"x": 5, "y": 49, "c": 1}, {"x": 6, "y": 87, "c": 0}, {"x": 6, "y": 66, "c": 1}, {"x": 7, "y": 17, "c": 0}, {"x": 7, "y": 27, "c": 1}, {"x": 8, "y": 68, "c": 0}, {"x": 8, "y": 16, "c": 1}, {"x": 9, "y": 49, "c": 0}, {"x": 9, "y": 15, "c": 1}], "transform": [{"type": "stack", "groupby": ["x"], "sort": {"field": "c"}, "field": "y"}]}], "scales": [{"name": "x", "type": "band", "range": "width", "domain": {"data": "table", "field": "x"}}, {"name": "y", "type": "linear", "range": "height", "nice": true, "zero": true, "domain": {"data": "table", "field": "y1"}}, {"name": "color", "type": "ordinal", "range": "category", "domain": {"data": "table", "field": "c"}}], "axes": [{"orient": "bottom", "scale": "x", "zindex": 1}, {"orient": "left", "scale": "y", "zindex": 1}], "marks": [{"type": "rect", "from": {"data": "table"}, "encode": {"enter": {"x": {"scale": "x", "field": "x"}, "width": {"scale": "x", "band": 1, "offset": -1}, "y": {"scale": "y", "field": "y0"}, "y2": {"scale": "y", "field": "y1"}, "fill": {"scale": "color", "field": "c"}}, "update": {"fillOpacity": {"value": 1}}, "hover": {"fillOpacity": {"value": 0.5}}}}]})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_b51854ca36ed473f98d43da994b3a2e9.bindTooltip(
+                `<div>
+                     Stop Name: Norwood Av<br> Transit District: 33<br> Police Sightings: Low<br>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2e24b811d1604a409e6e806563e199b2 = L.circleMarker(
+                [40.680429, -73.843853],
+                {"bubblingMouseEvents": true, "color": "#ffa500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa500", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+        var popup_a287caaad33d4539af1be107734962c1 = L.popup({"maxWidth": 550});
+
+        
+            var vega_lite_a95785e01c6e45acbccd53cecf8e6077 = $(`             <div id="vega_lite_a95785e01c6e45acbccd53cecf8e6077"></div>             `)[0];
+            popup_a287caaad33d4539af1be107734962c1.setContent(vega_lite_a95785e01c6e45acbccd53cecf8e6077);
+        
+
+        circle_marker_2e24b811d1604a409e6e806563e199b2.bindPopup(popup_a287caaad33d4539af1be107734962c1)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_a95785e01c6e45acbccd53cecf8e6077, {"$schema": "https://vega.github.io/schema/vega/v5.json", "width": 500, "height": 200, "padding": 5, "data": [{"name": "table", "values": [{"x": 0, "y": 28, "c": 0}, {"x": 0, "y": 55, "c": 1}, {"x": 1, "y": 43, "c": 0}, {"x": 1, "y": 91, "c": 1}, {"x": 2, "y": 81, "c": 0}, {"x": 2, "y": 53, "c": 1}, {"x": 3, "y": 19, "c": 0}, {"x": 3, "y": 87, "c": 1}, {"x": 4, "y": 52, "c": 0}, {"x": 4, "y": 48, "c": 1}, {"x": 5, "y": 24, "c": 0}, {"x": 5, "y": 49, "c": 1}, {"x": 6, "y": 87, "c": 0}, {"x": 6, "y": 66, "c": 1}, {"x": 7, "y": 17, "c": 0}, {"x": 7, "y": 27, "c": 1}, {"x": 8, "y": 68, "c": 0}, {"x": 8, "y": 16, "c": 1}, {"x": 9, "y": 49, "c": 0}, {"x": 9, "y": 15, "c": 1}], "transform": [{"type": "stack", "groupby": ["x"], "sort": {"field": "c"}, "field": "y"}]}], "scales": [{"name": "x", "type": "band", "range": "width", "domain": {"data": "table", "field": "x"}}, {"name": "y", "type": "linear", "range": "height", "nice": true, "zero": true, "domain": {"data": "table", "field": "y1"}}, {"name": "color", "type": "ordinal", "range": "category", "domain": {"data": "table", "field": "c"}}], "axes": [{"orient": "bottom", "scale": "x", "zindex": 1}, {"orient": "left", "scale": "y", "zindex": 1}], "marks": [{"type": "rect", "from": {"data": "table"}, "encode": {"enter": {"x": {"scale": "x", "field": "x"}, "width": {"scale": "x", "band": 1, "offset": -1}, "y": {"scale": "y", "field": "y0"}, "y2": {"scale": "y", "field": "y1"}, "fill": {"scale": "color", "field": "c"}}, "update": {"fillOpacity": {"value": 1}}, "hover": {"fillOpacity": {"value": 0.5}}}}]})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_2e24b811d1604a409e6e806563e199b2.bindTooltip(
+                `<div>
+                     Stop Name: Rockaway Blvd<br> Transit District: 23<br> Police Sightings: High<br>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_39bf5b4bc9064b9fae0760067a9117df = L.circleMarker(
+                [40.679364, -73.930729],
+                {"bubblingMouseEvents": true, "color": "#800080", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800080", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+        var popup_98e87f7b014a495b9e25143198d2c0c3 = L.popup({"maxWidth": 550});
+
+        
+            var vega_lite_314486b48537464a826f11752ee7d58c = $(`             <div id="vega_lite_314486b48537464a826f11752ee7d58c"></div>             `)[0];
+            popup_98e87f7b014a495b9e25143198d2c0c3.setContent(vega_lite_314486b48537464a826f11752ee7d58c);
+        
+
+        circle_marker_39bf5b4bc9064b9fae0760067a9117df.bindPopup(popup_98e87f7b014a495b9e25143198d2c0c3)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_314486b48537464a826f11752ee7d58c, {"$schema": "https://vega.github.io/schema/vega/v5.json", "width": 500, "height": 200, "padding": 5, "data": [{"name": "table", "values": [{"x": 0, "y": 28, "c": 0}, {"x": 0, "y": 55, "c": 1}, {"x": 1, "y": 43, "c": 0}, {"x": 1, "y": 91, "c": 1}, {"x": 2, "y": 81, "c": 0}, {"x": 2, "y": 53, "c": 1}, {"x": 3, "y": 19, "c": 0}, {"x": 3, "y": 87, "c": 1}, {"x": 4, "y": 52, "c": 0}, {"x": 4, "y": 48, "c": 1}, {"x": 5, "y": 24, "c": 0}, {"x": 5, "y": 49, "c": 1}, {"x": 6, "y": 87, "c": 0}, {"x": 6, "y": 66, "c": 1}, {"x": 7, "y": 17, "c": 0}, {"x": 7, "y": 27, "c": 1}, {"x": 8, "y": 68, "c": 0}, {"x": 8, "y": 16, "c": 1}, {"x": 9, "y": 49, "c": 0}, {"x": 9, "y": 15, "c": 1}], "transform": [{"type": "stack", "groupby": ["x"], "sort": {"field": "c"}, "field": "y"}]}], "scales": [{"name": "x", "type": "band", "range": "width", "domain": {"data": "table", "field": "x"}}, {"name": "y", "type": "linear", "range": "height", "nice": true, "zero": true, "domain": {"data": "table", "field": "y1"}}, {"name": "color", "type": "ordinal", "range": "category", "domain": {"data": "table", "field": "c"}}], "axes": [{"orient": "bottom", "scale": "x", "zindex": 1}, {"orient": "left", "scale": "y", "zindex": 1}], "marks": [{"type": "rect", "from": {"data": "table"}, "encode": {"enter": {"x": {"scale": "x", "field": "x"}, "width": {"scale": "x", "band": 1, "offset": -1}, "y": {"scale": "y", "field": "y0"}, "y2": {"scale": "y", "field": "y1"}, "fill": {"scale": "color", "field": "c"}}, "update": {"fillOpacity": {"value": 1}}, "hover": {"fillOpacity": {"value": 0.5}}}}]})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_39bf5b4bc9064b9fae0760067a9117df.bindTooltip(
+                `<div>
+                     Stop Name: Utica Av<br> Transit District: 33<br> Police Sightings: High<br>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_682b601684e5419885953e72ae302da3 = L.circleMarker(
+                [40.656652, -73.9502],
+                {"bubblingMouseEvents": true, "color": "#8a2be2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8a2be2", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_b00dee902a2a4099b1abd62e08a9df46);
+        
+    
+        var popup_909884afc14f4942bec16dafe437bf9f = L.popup({"maxWidth": 550});
+
+        
+            var vega_lite_050c580a38c34c7f9006ab4af54d3b48 = $(`             <div id="vega_lite_050c580a38c34c7f9006ab4af54d3b48"></div>             `)[0];
+            popup_909884afc14f4942bec16dafe437bf9f.setContent(vega_lite_050c580a38c34c7f9006ab4af54d3b48);
+        
+
+        circle_marker_682b601684e5419885953e72ae302da3.bindPopup(popup_909884afc14f4942bec16dafe437bf9f)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_050c580a38c34c7f9006ab4af54d3b48, {"$schema": "https://vega.github.io/schema/vega/v5.json", "width": 500, "height": 200, "padding": 5, "data": [{"name": "table", "values": [{"x": 0, "y": 28, "c": 0}, {"x": 0, "y": 55, "c": 1}, {"x": 1, "y": 43, "c": 0}, {"x": 1, "y": 91, "c": 1}, {"x": 2, "y": 81, "c": 0}, {"x": 2, "y": 53, "c": 1}, {"x": 3, "y": 19, "c": 0}, {"x": 3, "y": 87, "c": 1}, {"x": 4, "y": 52, "c": 0}, {"x": 4, "y": 48, "c": 1}, {"x": 5, "y": 24, "c": 0}, {"x": 5, "y": 49, "c": 1}, {"x": 6, "y": 87, "c": 0}, {"x": 6, "y": 66, "c": 1}, {"x": 7, "y": 17, "c": 0}, {"x": 7, "y": 27, "c": 1}, {"x": 8, "y": 68, "c": 0}, {"x": 8, "y": 16, "c": 1}, {"x": 9, "y": 49, "c": 0}, {"x": 9, "y": 15, "c": 1}], "transform": [{"type": "stack", "groupby": ["x"], "sort": {"field": "c"}, "field": "y"}]}], "scales": [{"name": "x", "type": "band", "range": "width", "domain": {"data": "table", "field": "x"}}, {"name": "y", "type": "linear", "range": "height", "nice": true, "zero": true, "domain": {"data": "table", "field": "y1"}}, {"name": "color", "type": "ordinal", "range": "category", "domain": {"data": "table", "field": "c"}}], "axes": [{"orient": "bottom", "scale": "x", "zindex": 1}, {"orient": "left", "scale": "y", "zindex": 1}], "marks": [{"type": "rect", "from": {"data": "table"}, "encode": {"enter": {"x": {"scale": "x", "field": "x"}, "width": {"scale": "x", "band": 1, "offset": -1}, "y": {"scale": "y", "field": "y0"}, "y2": {"scale": "y", "field": "y1"}, "fill": {"scale": "color", "field": "c"}}, "update": {"fillOpacity": {"value": 1}}, "hover": {"fillOpacity": {"value": 0.5}}}}]})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_682b601684e5419885953e72ae302da3.bindTooltip(
+                `<div>
+                     Stop Name: Winthrop St<br> Transit District: 32<br> Police Sightings: Low<br>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
