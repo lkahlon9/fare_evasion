@@ -1,5 +1,5 @@
 # Web Scraping and Data Wrangling for Fare Evasion Enforcement in New York City
-We provide code to gather data from NYPD's records of fare enforcement, NYC community district data and data twitter's @unfarenyc.
+We provide code to gather data from NYPD's records of fare enforcement, NYC community district data and police presence data from twitter's @unfarenyc. We use these to create an interactive map, where one can see collected data for subway stations of interest to us.
 
 ### Requirements
 To run our code, it's required you install the following libraries
@@ -13,6 +13,13 @@ To run our code, it's required you install the following libraries
 - Functools
 - Pillow
 Additionally, you will need access to Twitter's API via your own API key.
+
+### To get the interactive map running:
+1. Make sure you have the necessary libraries installed.
+2. Run all cells of "fairevasion_main.ipynb"
+3. Run all cells of "png_formation.ipynb"
+4. Run all cells of "Map of Subway Stations (Made with Folium).ipynb"
+5. Open Map.html
 
 ### Data Sources
 - <a href="https://www1.nyc.gov/site/nypd/stats/reports-analysis/subway-fare-evasion.page">New York Police Department Fare Evasion Arrests and Summonses by Quarter</a>
