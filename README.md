@@ -14,6 +14,15 @@ To run our code, it's required you install the following libraries
 - Pillow
 Additionally, you will need access to Twitter's API via your own API key.
 
+### Data Sources
+- <a href="https://www1.nyc.gov/site/nypd/stats/reports-analysis/subway-fare-evasion.page">New York Police Department Fare Evasion Arrests and Summonses by Quarter</a>
+- <a href="http://web.mta.info/developers/data/nyct/subway/Stations.csv">New York City Metro Transit Association Subway Names and Locations</a>
+- <a href="https://data.cityofnewyork.us/City-Government/Census-Demographics-at-the-NYC-Community-District-/5unr-w4sc ">City of New York Community District Level Demographics</a>
+- <a href="https://twitter.com/unfarenyc">Twitter Account @unfarenyc Reporting Police Sightings</a>
+- <a href="https://twitter.com/unfarenyc">Twitter Account @unfarenyc Reporting Police Sightings</a>
+- <a href="http://web.mta.info/nyct/facts/ridership/">Weekday and Weekend MTA Ridership by Subway Station</a>
+- <a href="http://app.coredata.nyc/?mlb=false&ntii=&ntr=&mz=14&vtl=https%3A%2F%2Fthefurmancenter.carto.com%2Fu%2Fnyufc%2Fapi%2Fv2%2Fviz%2F98d1f16e-95fd-4e52-a2b1-b7abaf634828%2Fviz.json&mln=false&mlp=true&mlat=40.71781&ptsb=&nty=&mb=roadmap&pf=%7B%22subsidies%22%3Atrue%7D&md=map&mlv=false&mlng=-73.990806&btl=Borough&atp=properties">NYU tool to view New York City Neighborhood Income Levels</a>
+
 ### Code References
 In doing our project, we made use of the following code resources
 - <a href="https://github.com/bear/python-twitter"> Bear Twitter wrapper for Python </a>
