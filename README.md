@@ -19,7 +19,7 @@ Note: this will generate the interactive map with updated data from @UnfareNYC. 
 1. Make sure you have the necessary libraries installed.
 2. Run all cells of "fairevasion_main.ipynb"
 3. Run all cells of "png_formation.ipynb"
-4. Run all cells of "Map of Subway Stations (Made with Folium).ipynb"
+4. Run all cells of "Map_Final.ipynb"
 5. Open Map.html
 
 ### Data Sources
