@@ -16,9 +16,9 @@ Additionally, you will need access to Twitter's API via your own API key.
 
 ### To get the interactive map running:
 1. Make sure you have the necessary libraries installed.
-2. Run all cells of "fairevasion_main1.ipynb"
-3. Run all cells of "png_formation2.ipynb"
-4. Run all cells of "Map_Final3.ipynb"
+2. Run all cells of "fairevasion_main.ipynb"
+3. Run all cells of "png_formation.ipynb"
+4. Run all cells of "Map_Final.ipynb"
 5. Open Map.html
 
 ### Data Sources
